@@ -20,6 +20,8 @@ Você pode escolher uma das seguintes tecnologias para realizar o desafio:
 
 -   Qualquer outra tecnologia equivalente
 
+Refira-se à seção **Recursos** abaixo para sugestões de scripts produtores e consumidores.
+
 #### Tarefas
 
 1.  Instalação e Configuração Básica
@@ -28,7 +30,7 @@ Você pode escolher uma das seguintes tecnologias para realizar o desafio:
 
 -   Documentação: Documente o processo de instalação e configuração, incluindo as opções escolhidas para garantir a alta disponibilidade e resiliência.
 
-3.  Monitoramento e Alerta
+2.  Monitoramento e Alerta
 
 -   Configure ferramentas de monitoramento (por exemplo, Prometheus e Grafana para serviços locais, ou CloudWatch para serviços AWS) para coletar métricas de desempenho e disponibilidade do serviço de mensageria escolhido.
 
@@ -36,19 +38,19 @@ Você pode escolher uma das seguintes tecnologias para realizar o desafio:
 
 -   Configure alertas para situações críticas, como falha de componentes, aumento de latência, filas crescendo indefinidamente, etc.
 
-5.  Teste de Resiliência
+3.  Teste de Resiliência
 
 -   Simule falhas no serviço de mensageria e observe o comportamento do sistema. Documente suas observações e explique como o sistema se recupera das falhas.
 
 -   Realize testes de carga para avaliar o desempenho do serviço sob alta carga. Use ferramentas como Apache JMeter ou locust.io para gerar a carga (ou scripts personalizados se estiver usando serviços na nuvem). Documente os resultados e qualquer problema de desempenho identificado.
 
-7.  Otimização e Melhores Práticas
+4.  Otimização e Melhores Práticas
 
 -   Identifique possíveis pontos de falha e gargalos no serviço de mensageria escolhido e proponha melhorias.
 
 -   Documente as melhores práticas para configuração, operação e manutenção do serviço de mensageria.
 
-9.  Backup e Recuperação
+5.  Backup e Recuperação
 
 -   Configure um processo de backup regular para os dados, se aplicável (especialmente relevante para RabbitMQ e Kafka).
 
