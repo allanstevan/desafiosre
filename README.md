@@ -34,39 +34,39 @@ Refira-se à seção **Recursos** abaixo para sugestões de scripts produtores e
 
 -   Configure ferramentas de monitoramento (por exemplo, Prometheus e Grafana para serviços locais, ou CloudWatch para serviços AWS) para coletar métricas de desempenho e disponibilidade do serviço de mensageria escolhido.
 
--   Crie dashboards para visualizar as métricas mais importantes, como latência, throughput, uso de CPU/memória, etc.
+-   Crie dashboards para visualizar as métricas mais importantes, como latência, throughput, uso de CPU/memória, etc. (opcional)
 
--   Configure alertas para situações críticas, como falha de componentes, aumento de latência, filas crescendo indefinidamente, etc.
+-   Configure alertas para situações críticas, como falha de componentes, aumento de latência, filas crescendo indefinidamente, etc. (opcional)
 
 3.  Teste de Resiliência
 
 -   Simule falhas no serviço de mensageria e observe o comportamento do sistema. Documente suas observações e explique como o sistema se recupera das falhas.
 
--   Realize testes de carga para avaliar o desempenho do serviço sob alta carga. Use ferramentas como Apache JMeter ou locust.io para gerar a carga (ou scripts personalizados se estiver usando serviços na nuvem). Documente os resultados e qualquer problema de desempenho identificado.
+-   Realize testes de carga para avaliar o desempenho do serviço sob alta carga. Use ferramentas como Apache JMeter ou locust.io para gerar a carga (ou scripts personalizados se estiver usando serviços na nuvem). Documente os resultados e qualquer problema de desempenho identificado. (opcional)
 
 4.  Otimização e Melhores Práticas
 
 -   Identifique possíveis pontos de falha e gargalos no serviço de mensageria escolhido e proponha melhorias.
 
--   Documente as melhores práticas para configuração, operação e manutenção do serviço de mensageria.
+-   Documente as melhores práticas para configuração, operação e manutenção do serviço de mensageria escolhido.
 
 5.  Backup e Recuperação
 
--   Configure um processo de backup regular para os dados, se aplicável (especialmente relevante para RabbitMQ e Kafka).
+-   Configure um processo de backup regular para os dados, se aplicável (opcional).
 
--   Descreva um plano de recuperação de desastres que inclua procedimentos para restaurar os dados a partir dos backups em caso de perda total de dados (aplicável principalmente para RabbitMQ e Kafka).
+-   Descreva um plano de recuperação de desastres que inclua procedimentos para restaurar os dados a partir dos backups em caso de perda total de dados (opcional).
 
 #### Entregáveis
 
 1.  Documentação detalhada da instalação e configuração do serviço de mensageria escolhido.
 
-2.  Dashboards de monitoramento e configurações de alertas.
+2.  Dashboards de monitoramento e configurações de alertas. (opcional)
 
-3.  Relatórios de testes de resiliência e carga, incluindo observações e recomendações.
+3.  Relatórios de testes de resiliência e carga, incluindo observações e recomendações. (opcional)
 
 4.  Documentação das melhores práticas e propostas de melhorias.
 
-5.  Procedimentos de backup (se aplicável) e plano de recuperação de desastres.
+5.  Procedimentos de backup (se aplicável) e plano de recuperação de desastres. (opcional)
 
 #### Critérios de Avaliação
 
@@ -82,7 +82,7 @@ Refira-se à seção **Recursos** abaixo para sugestões de scripts produtores e
 
 #### Recursos
 
-V. encontrará exemplos de script para produzir e consumir filas neste diretório.
+V. encontrará exemplos de script para produzir e consumir filas neste diretório. É franqueado ao candidato a customização dos mesmos de acordo com suas preferências.
 
 consumer_rabbitmq.py
 consumer_sqs.py
