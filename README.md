@@ -84,4 +84,9 @@ Refira-se à seção **Recursos** abaixo para sugestões de scripts produtores e
 
 V. encontrará exemplos de script para produzir e consumir filas neste diretório.
 
-Esse desafio permitirá ao candidato demonstrar sua expertise na tecnologia de mensageria escolhida, além de suas habilidades gerais em SRE.
+consumer_rabbitmq.py
+consumer_sqs.py
+kafka_consumer.py
+kafka_producer.py
+producer_rabbitmq.py
+producer_sqs.py
