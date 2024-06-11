@@ -26,7 +26,7 @@ Refira-se à seção **Recursos** abaixo para sugestões de scripts produtores e
 
 1.  Instalação e Configuração Básica
 
--   Instalação e Configuração: Instale e configure o serviço de mensageria escolhido utilizando Terraform. Se estiver usando um serviço gerenciado na nuvem (como SQS, SNS ou Event Hub), configure o serviço para alta disponibilidade e durabilidade das mensagens. 
+-   Instalação e Configuração: Instale e configure o serviço de mensageria escolhido preferencialmente utilizando Terraform. Se estiver usando um serviço gerenciado na nuvem (como SQS, SNS ou Event Hub), configure o serviço para alta disponibilidade e durabilidade das mensagens. 
 
 -   Documentação: Documente o processo de instalação e configuração, incluindo as opções escolhidas para garantir a alta disponibilidade e resiliência.
 
