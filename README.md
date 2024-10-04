@@ -14,7 +14,7 @@ Você pode escolher uma das seguintes tecnologias para realizar o desafio:
 
 -   Amazon SQS
 
--   Amazon SNS
+-   Amazon SNS  
 
 -   Azure Event Hub
 
