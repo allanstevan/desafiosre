@@ -4,7 +4,7 @@
 
 Você foi contratado como SRE em uma empresa que usa serviços de mensageria para gerenciar a comunicação assíncrona entre microserviços. O sistema precisa ser altamente disponível e resiliente, pois suporta aplicações críticas de negócios.
 
-#### Escolha de Tecnologia
+#### Escolha de Tecnologia  
 
 Você pode escolher uma das seguintes tecnologias para realizar o desafio:
 
